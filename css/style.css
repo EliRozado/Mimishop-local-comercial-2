@@ -98,13 +98,14 @@ footer{
     position: fixed;
     bottom:0;
     width: 100%;
+    padding: 15px;
     background-color: var(--color-botones_acentos);
+    border-top: 2px solid var(--color-bordes);
 }
 
 .caja-calculadora{
     padding: 15px;
     width: auto;
-    border-top: 2px solid var(--color-bordes);
     display: flex;
     flex-direction: column;
     gap: 10px;
