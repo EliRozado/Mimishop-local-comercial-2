@@ -155,7 +155,7 @@ button{
 
 .texto-principal p{ font-size: 15px; }
 
-.index-main img{ max-width: 600px; height: auto; align-self: center; }
+.index-main img{ max-width: 500px; height: auto; align-self: center; }
 
 .section-cont{ 
     padding: 80px 60px;
@@ -254,7 +254,7 @@ button{
     background-color: var(--color-botones_hover);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .index-main{
         flex-direction: row;
         height: auto;
@@ -263,11 +263,11 @@ button{
 
     h2{ font-size: 20px; }
 
-    .texto-principal h1{ font-size: 30px; }
+    .texto-principal h1{ font-size: 25px; }
 
     .texto-principal p{ font-size: 14px; }
 
-    .index-main img{ height: 300px; }
+    .index-main img{ height: 250px; max-width: auto;}
 
     .texto-principal{
         padding-left: 0px;
@@ -288,13 +288,13 @@ button{
         align-items: center;
     }
 
-    footer{ gap: 60px;}
+    footer{ gap: 40px; flex-direction: column; padding: 30px; }
 
     .form-contacto{ width: 80%; align-self: center;}
     .form-100{ text-align: left; }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 468px) {
     .logo{ height: 65px; }
     
     .nav-sitio ul{ flex-direction: column; gap: 10px; }
