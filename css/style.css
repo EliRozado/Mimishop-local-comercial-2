@@ -72,6 +72,50 @@ footer{
 
 .footer-links a{ color: var(--color-fondo); text-decoration: none; }
 
+.img-header-titulo{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+    ),url("../img/header-promociones.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.img-header-titulo h1{
+    color: var(--color-fondo);
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+#calculadora-promociones{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: var(--color-botones_acentos);
+}
+
+.caja-calculadora{
+    padding: 15px;
+    width: auto;
+    border-top: 2px solid var(--color-bordes);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    color: var(--color-texto);
+}
+
+.hidden{
+    display: none;
+}
+
 .index-main{
     height: 700px;
     display: flex;
@@ -87,6 +131,11 @@ footer{
     text-decoration: none;
     color: var(--color-fondo);
     align-self: center;
+}
+
+button{
+    border: none;
+    cursor: pointer;
 }
 
 .boton:hover{

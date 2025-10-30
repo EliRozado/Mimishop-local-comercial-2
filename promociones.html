@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimishop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/promociones.js" defer></script>
+</head>
+<body>
+    <header class="header-sitio">    
+        <img class="logo" src="img/Logo_Mimishop.png" alt="Logo de Mimishop">
+        <nav class="nav-sitio">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a class="active" href="promociones.html">Promociones</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img-header-titulo">
+        <h1>Promociones</h1>
+    </div>
+
+    <aside id="calculadora-promociones" class="hidden">
+        <div class="caja-calculadora"> 
+            <p><strong>Total sin descuento:</strong> <span id="total-sin-descuento">$0</span></p>
+            <p><strong>Descuento aplicado:</strong> <span id="descuento-aplicado">$0</span></p>
+            <p><strong>Total final:</strong> <span id="total-final">$0</span></p>
+        </div>
+    </aside>
+
+    <section class="section-cont section-grey">
+        <h2>3x2 en peluches seleccionados</h2>   
+        <p>Para combinar a tu gusto</p>
+        <div>
+            <div class="producto-card">
+                <img src="img/productos/Pokemon_Peluche_Charmander.jpg" alt="Peluche de Charmander">
+                <p>Peluche de Charmander</p>
+                <p>$<span class="precio">15000</span></p>
+                <input promo="3x2" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/Pokemon_Peluche_Shinx.jpg" alt="Peluche de Shinx">
+                <p>Peluche de Shinx</p>
+                <p>$<span class="precio">15000</span></p>
+                <input promo="3x2" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/Sanrio_Peluche_Cinnamonroll-Gatito-Azul.jpg" alt="Peluche de Cinnamonroll">
+                <p>Peluche de Cinnamonroll Gatito Azul</p>
+                <p>$<span class="precio">15000</span></p>
+                <input promo="3x2" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+            
+            <div class="producto-card">
+                <img src="img/productos/Sanrio_Peluche_Pompompurin.jpg" alt="Peluche de Pompompurin">
+                <p>Peluche de Pompompurin</p>
+                <p>$<span class="precio">15000</span></p>
+                <input promo="3x2" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cont">
+        <h2>50% off en mangas seleccionados</h2>   
+        <p>Perfecto para llevar un nuevo tomo a casa</p>
+        <div>
+            <div class="producto-card">
+                <img src="img/productos/BeastComplex_Manga_2.jpg" alt="Manga BEast COmplex Volumen 2">
+                <p>Beast Complex Vol.2</p>
+                <p>$<span class="precio">14500</span></p>
+                <input promo="50OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/PokemonAdventures_Manga_Yellow5.jpg" alt="Manga Pokemon Adventures Volumen 5">
+                <p>Pokemon Adventures - Yellow Vol.5</p>
+                <p>$<span class="precio">14500</span></p>
+                <input promo="50OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/SpyXFamily_Manga_14.jpg" alt="Manga Spy X Family Volumen 14">
+                <p>Spy X Family - Vol.14</p>
+                <p>$<span class="precio">14500</span></p>
+                <input promo="50OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+            
+            <div class="producto-card">
+                <img src="img/productos/Oneshot_Manga_Goodbye-Eri.png" alt="Manga Goodbye Eri">
+                <p>Manga Goodbye Eri</p>
+                <p>$<span class="precio">14500</span></p>
+                <input promo="50OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cont section-grey">
+        <h2>20% off en Bundles seleccionados</h2>   
+        <p>Para los amantes del TCG de Pokemon y las cartas bonitas</p>
+        <div>
+            <div class="producto-card">
+                <img src="img/productos/Pokemon_Booster_Mega-Evolution.jpg" alt="Booster de Pokemon Mega Evolution">
+                <p>Booster de Pokemon Mega Evolution</p>
+                <p>$<span class="precio">75000</span></p>
+                <input promo="20OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/Pokemon_Booster_White-Flare.jpg" alt="Booster de Pokemon White Flare">
+                <p>Booster de Pokemon White Flare</p>
+                <p>$<span class="precio">75000</span></p>
+                <input promo="20OFF" type="number" min="1" max="3" value="1">
+                <button class="boton">Agregar al carrito</button>
+            </div>  
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-links footer-flex">
+            <p><strong>Navegación</strong></p>
+            <a href="index.html">Home</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="footer-flex">
+            <p><strong>Contacto</strong></p>
+            <p>Teléfono: 1555555555</p>
+            <p>Email: contacto@mimishop.com.ar</p>
+        </div>
+
+        <div>
+            <p>Elizabeth Rozado &copy; 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
