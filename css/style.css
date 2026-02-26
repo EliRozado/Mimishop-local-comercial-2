@@ -239,6 +239,7 @@ button{
     border-radius: 4px;
 }
 
+
 .boton-enviar{
     background-color: var(--color-botones_acentos);
     padding: 10px;
@@ -253,6 +254,24 @@ button{
 
 .boton-enviar:hover{
     background-color: var(--color-botones_hover);
+}
+
+.form-error{
+    border: 1px red solid !important;
+}
+
+.form-contacto label::after{
+    content: " *";
+    display: inline-block;
+    color: red;
+}
+
+.form-contacto span {
+    font-size: 11px;
+    height: 11px;
+    color: red;
+
+
 }
 
 @media screen and (max-width: 768px){
